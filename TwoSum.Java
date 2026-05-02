@@ -10,9 +10,7 @@ public class TwoSum {
                 return new int[] { map.get(complement), i };
             }
             map.put(nums[i], i);
-            
         }
-
         throw new IllegalArgumentException("No two sum solution");
     }
 }
