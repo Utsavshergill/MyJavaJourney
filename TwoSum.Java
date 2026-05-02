@@ -11,6 +11,7 @@ public class TwoSum {
             }
             map.put(nums[i], i);
         }
+        
         throw new IllegalArgumentException("No two sum solution");
     }
 }
